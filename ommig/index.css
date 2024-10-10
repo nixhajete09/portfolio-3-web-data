@@ -1,0 +1,110 @@
+/* Generel styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #FADADD;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Section styling */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #F5A9BC;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li strong {
+    color: #FADADD;
+}
+
+/* Footer styling */
+footer {
+    background-color: #FADADD;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Responsiv design til mobil */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p, ul li {
+        font-size: 1em;
+    }
+}
+/*button til mørk/light mode*/
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Dark Mode for header */
+header.dark-mode {
+    background-color: #333;
+    color: white;
+}
